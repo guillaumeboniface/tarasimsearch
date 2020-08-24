@@ -1,0 +1,17 @@
+<html>
+<head>
+	<link href="tara.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+	<h1 class="display-1 text-primary">EcoTaxa Similarity Search</h1>
+	<h2>Your image</h2>
+	<img src="data:image/jpg;base64,{{img_query}}">
+	<h2>Closest images</h2>
+	{% for img_link in img_links %}
+        <img src="{{img_link}}" >
+    {% endfor %}
+    <div class="footer">
+	<a href="https://ecotaxa.obs-vlfr.fr/">More about EcoTaxa</a>
+	</div>
+</body>
+</html>

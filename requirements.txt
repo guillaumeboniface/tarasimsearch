@@ -1,0 +1,5 @@
+tf-nightly
+tensorflow-hub
+Pillow
+flask
+waitress
